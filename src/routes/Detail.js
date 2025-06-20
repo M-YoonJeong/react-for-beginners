@@ -33,7 +33,7 @@ function Detail() {
           <p>{movie.description_full}</p>
           <ul>
             <li>
-              <a url={movie.torrents.url}>torrents</a>
+              <a href={movie.torrents.url}>torrents</a>
             </li>
           </ul>
         </div>
